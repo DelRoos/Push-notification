@@ -1,6 +1,6 @@
 # notifications_push
 
-A new Flutter project.
+Create push notification
 
 ## Getting Started
 
@@ -11,6 +11,24 @@ A few resources to get you started if this is your first Flutter project:
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+=> create your flutter project
+
+=> create your firebase project
+
+```
+- copy the package name of your app in the main AndoridManifestFile
+```
+
+
+```
+- Add android app with this package name in your firebase project
+```
+
+
+=> Add the file google-service in the folder android/app
+
+=> Add the class <<classpath 'com.google.gms:google-services:4.3.10'>> in android/build.gradle
+
+=> Add conf firebase in file android/app/build.gradle
+
+=> Add this dependencies firebase_messaging,overlay_support,firebase_core in pubsec.yaml
